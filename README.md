@@ -13,6 +13,7 @@ EIN and NAME should be removed. EIN does not provide any predictive value. NAME 
 
 2. Compiling, Training, and Evaluating the Model:
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  
 I used 3 layers and 1 output layer.
 100 neurons used in the 1st layer. This is to capture complex patterns in the data at an early stage of processing.
 50 neurons used in the 2nd layer. This reduces complexity slightly while maintaining a good capacity for learning.
