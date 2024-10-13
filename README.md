@@ -27,8 +27,11 @@ The performance of the model was satisfactory but did not exceed expectations si
 - What steps did you take in your attempts to increase model performance?
   
 1st step: More neurons in the initial layer helped capture more complex relationships in the data (increased the number of neurons)
+
 2nd step: Introduced dropout layers to help mitigate overfitting by randomly dropping units during training
+
 3d step: By using 'ReduceLROnPlateau', the model's learning rate was adjusted based on performance, allowing the optimizer to fine-tune as training progressed.
+
 4th step: Early stopping was implemented to halt training once the validation loss stopped improving, which helps prevent overfitting and saves computational resources.
 
  ## Summary: 
