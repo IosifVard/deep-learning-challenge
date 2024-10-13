@@ -21,9 +21,11 @@ I used 3 layers and 1 output layer.
 I used relu (rectified linear unit) for 3 layers and sigmoid fort the output layer. relu is used due to its efficiency in learning non-linear relationships. Sigmoid is used for binary classification in the output layer.
 
 - Were you able to achieve the target model performance?
+  
 The performance of the model was satisfactory but did not exceed expectations significantly. The accuracy was reasonable given the nature of the dataset, though there is room for improvement with additional tuning.
 
 - What steps did you take in your attempts to increase model performance?
+  
 1st step: More neurons in the initial layer helped capture more complex relationships in the data (increased the number of neurons)
 2nd step: Introduced dropout layers to help mitigate overfitting by randomly dropping units during training
 3d step: By using 'ReduceLROnPlateau', the model's learning rate was adjusted based on performance, allowing the optimizer to fine-tune as training progressed.
