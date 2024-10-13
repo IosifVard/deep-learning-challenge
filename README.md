@@ -2,13 +2,13 @@
 
 1. Data Preprocessing:
 
-a. What variable(s) are the target(s) for your model?
+- What variable(s) are the target(s) for your model?
 IS_SUCCESSFULL is the target variable for the model
 
-b. What variable(s) are the features for your model?
+- What variable(s) are the features for your model?
 The feature variables for the model are all the columns in the dataset except for IS_SUCCESSFULL and any ID or categorical columns that don't contribute to the prediction.
 
-c. What variable(s) should be removed from the input data because they are neither targets nor features?
+- What variable(s) should be removed from the input data because they are neither targets nor features?
 EIN and NAME should be removed. EIN does not provide any predictive value. NAME is also irrelevant for the prediction and does not contribute to the model.
 
 2. Compiling, Training, and Evaluating the Model:
