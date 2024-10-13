@@ -1,6 +1,7 @@
 ## Written Report
 
 1. Data Preprocessing:
+
 a. What variable(s) are the target(s) for your model?
 IS_SUCCESSFULL is the target variable for the model
 
